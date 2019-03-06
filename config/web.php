@@ -57,24 +57,27 @@ $config = [
             // 'linkAssets' => true,//link to assets,no cache.used in develop.
             'bundles' => [
                 'myzero1\layui\assets\php\components\LayoutAsset' => [
-                    // 'copyright' => '<p><span>copyright @2018-2038 myzero1</span></p>', // false
+                     'copyright' => '<p><span>copyright @2019-2099 史亚运</span></p>', // false
                     // 'copyright' => false
                     'noticeUrl' => '/gii',
                     // 'noticeUrl' => false,
                 ],
             ],
+
         ],
 
-        /*
+
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
             ],
         ],
-        */
+
     ],
+
     'params' => $params,
+
 
     'layout' => 'main',// to set theme by setting layout and layoutPath
     //'layoutPath' => \Yii::getAlias('@vendor/myzero1/yii2-theme-layui/src/views/layouts'),
